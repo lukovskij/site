@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Opisanie">
+	<meta name="keywords" content="Klyu4 slova">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="shortcut icon" type="image/x-icon" href="">
+	<script type="text/javascript" href=""></script>
+	<!-- [if lt IE 9]> <script src="//html5shiv.googlecode.com/svn/
+	trunk/html5.js"></script> <![endif]-->
+
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="logo">
+				<div class="logo_text">
+					<h1><a href="/">Kino Monster</a></h1>
+					<h2>Kino is our love!</h2>
+				</div>
+			</div>
+			<div class="menu_bar">
+				<ul class="menu">
+					<li class="selected"><a href="#">General</a></li>
+					<li><a href="#">Films</a></li>
+					<li><a href="#">Serials</a></li>
+					<li><a href="#">Raiting Films</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</header>	
+		<section class="site_content">
+			<div class="sitebar_container">
+				<div class="site_bar">
+					<h2>Search</h2>
+					<form method="post" action="#" id="search_form">
+						<input type="search" name="search_field" placeholder="you query" />
+						<input type="submit" class="btn" value="search!"/>
+					</form>
+				</div>
+				<div class="site_bar">
+					<h2>SigIn</h2>
+					<form method="post" action="#" id="login">
+						<input type="text" name="login_field" placeholder="login" />
+						<input type="password" name="password_field" placeholder="password"/>
+						<input type="submit" class="btn" value="login"/>
+						<div class="lables_passreg_text">
+							<span><a href="#">Forget password?</a></span> | 
+							<span><a href="#">Reistration</a></span>
+						</div>
+					</form>
+				</div>
+				<div class="site_bar">
+					<h2>News</h2>
+					<span>31.03.2016</span>
+					<p>We are started full search!</p>
+					<a href="#">read!</a>
+				</div>
+				<div class="site_bar">
+					<h2>Raiting films</h2>
+					<ul>
+						<li><a href="#">Interstellar</a><span class="raiting_sitebar">8.1</span></li>
+						<li><a href="#">Matrix</a><span class="raiting_sitebar">8.0</span></li>
+						<li><a href="#">Crazy Max</a><span class="raiting_sitebar">7.1</span></li>
+						<li><a href="#">Sky Atlas</a><span class="raiting_sitebar">9.0</span></li>
+						
+					</ul>
+				</div>
+			</div>
+			<div class="content">
+				<h1>Interstellar</h1>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/zSWdZVtXT7E" frameborder="0" allowfullscreen></iframe>
+				<div class="info_film_page">
+					<span class="label">raiting: </span><span class="value">8.1 / 10
+					</span>
+					<span class="label">year: </span><span class="value">2014</span>
+					<span class="label">director: </span><span class="value">Kristohfer Nolan</span>
+				</div>
+				<hr>
+
+				<h2>Interstellar description</h2>
+				<div class="description_film">
+					<img src="img/inter.png" height="200" width="130" alt="">
+					A catastrophic crop blight has made farming increasingly difficult and threatens humanity's survival. Cooper, a widowed former NASA pilot who has an engineering background, runs a farm with his father-in-law, son, and daughter Murphy, who believes her bedroom is haunted by a poltergeist. When the "ghost" creates a pattern in the dust, Cooper realizes someone is using gravity to communicate, and interprets the pattern as geographic coordinates, which Cooper and Murphy follow to a secret NASA facility, where they meet Dr. Brand, Cooper's former professor.
+				</div>
+				<hr>
+				<h2>Comments about Interstellar</h2>
+				<div class="reviwes">
+					<div class="reviwes_name">Sergey</div>
+					<div class="reviwes_text">
+						Good films! I love like films! 
+					</div>
+				</div>
+				<div class="send">
+					<form action="#" method="post" id="review">
+						<input type="text" name="review_name" placeholder="you name">
+						<textarea name="review_text" id=""></textarea>
+						<input type="submit" value="send!">
+					</form>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<p><a href="#">General</a> |
+				 <a href="#">Films</a> | 
+				 <a href="#">Serials</a> | 
+				 <a href="#">Raiting Films</a> | 
+				 <a href="#">Contacts</a>
+			</p>
+			<p>wh-db.com 2015</p>
+		</footer>
+	</div>
+</body>
+</html>
