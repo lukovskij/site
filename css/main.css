@@ -4,6 +4,8 @@
 }
 body{
     color: rgba(116, 41, 41, 0.63);
+    width: 100%;
+    margin: 0 auto;
 }
 input[type="text"], input[type="password"], input[type="search"]{
 	color: #5d5d5d;
